@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("backgrounds/tokyo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#content {
+    width: 500px;
+    height: 147px;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+
+    backdrop-filter: blur(3px);
+    background-color: hsla(0, 0%, 100%, 0.398);
+    border-radius: 20px;
+}
+
+#clock {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+#change-background-container {
+   justify-content: center;
+   text-align: center;
+}
+
+#change-background-label {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#change-background-dropdown {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    backdrop-filter: blur(3px);
+    text-align: center;
+}
